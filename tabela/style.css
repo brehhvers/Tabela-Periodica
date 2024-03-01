@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     margin: 0;
 }
@@ -13,6 +13,11 @@ td{
     height: 11.11%;
     width: 5.5%;
 }
+
+td div ~ div{
+    text-align: center;
+}
+
 
 /* td{
     background-color: rgb(255, 15, 15);
