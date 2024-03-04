@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela Periódica</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <table border>
+    <table border class="borderless">
+        <tr>
+            <td class="borderless center">
+                <div>1</div>
+            </td>
+            <td colspan="16" class="borderless"></td>
+
+            <td class="borderless center">
+                <div>18</div>
+            </td>
+        </tr>
         <tr>
             <td>
                 <div>1</div>
                 <div>H</div>
                 <div>Hidrogênio</div>
             </td>
-            <td colspan="16"></td>
+            <td class="borderless center">2</td>
+            <td colspan="10" class="borderless"></td>
+            <td class="borderless center">13</td>
+            <td class="borderless center">14</td>
+            <td class="borderless center">15</td>
+            <td class="borderless center">16</td>
+            <td class="borderless center">17</td>
             <td>
                 <div>2</div>
                 <div>He</div>
@@ -32,7 +53,7 @@
                 <div>Be</div>
                 <div>Berílio</div>
             </td>
-            <td colspan="10"></td>
+            <td colspan="10" class="borderless"></td>
             <td>
                 <div>5</div>
                 <div>B</div>
@@ -75,7 +96,16 @@
                 <div>Mg</div>
                 <div>Magnésio</div>
             </td>
-            <td colspan="10"></td>
+            <td class="borderless center">3</td>
+            <td class="borderless center">4</td>
+            <td class="borderless center">5</td>
+            <td class="borderless center">6</td>
+            <td class="borderless center">7</td>
+            <td class="borderless center">8</td>
+            <td class="borderless center">9</td>
+            <td class="borderless center">10</td>
+            <td class="borderless center">11</td>
+            <td class="borderless center">12</td>
             <td>
                 <div>13</div>
                 <div>Al</div>
@@ -476,20 +506,7 @@
             </td>
         </tr>
         <tr>
-            <td>
-                <div></div>
-                <div></div>
-                <div></div>
-            </td>
-            <td>
-                <div></div>
-                <div></div>
-                <div></div>
-            </td>
-            <td>
-                <div></div>
-                <div></div>
-                <div></div>
+            <td colspan="3" rowspan="2" class="borderless">
             </td>
             <td>
                 <div>57</div>
@@ -569,21 +586,6 @@
         </tr>
         <tr>
             <td>
-                <div></div>
-                <div></div>
-                <div></div>
-            </td>
-            <td>
-                <div></div>
-                <div></div>
-                <div></div>
-            </td>
-            <td>
-                <div></div>
-                <div></div>
-                <div></div>
-            </td>
-            <td>
                 <div>89</div>
                 <div>Ac</div>
                 <div>Actínio</div>
@@ -661,4 +663,5 @@
         </tr>
     </table>
 </body>
+
 </html>
